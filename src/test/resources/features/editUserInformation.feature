@@ -6,3 +6,4 @@
       Then The user enter valid username "gujalwarpooja@gmail.com" and password "pooja@123"
       And The user clicks on Edit your account information
       Then The user update the firstname to "Pooja1"
+      Then Verify the user can update the information successfully

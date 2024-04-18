@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
         },
         features = "src/test/resources/features",
         glue = "com/dgmarkt/stepDef",
-        dryRun = true,
+        dryRun = false,
         tags = "@B12DGMAU-7"
 )
 

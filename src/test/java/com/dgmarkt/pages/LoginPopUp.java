@@ -14,9 +14,13 @@ public class LoginPopUp extends BasePage {
     @FindBy(xpath = "(//button[@class='button btn'])[2]")
     public static WebElement createAccountButton;
 
+
+
     public void login(String username, String password) {
         emailInput.sendKeys(username);
         passwordInput.sendKeys(password);
         loginButton.click();
     }
+
+
 }
