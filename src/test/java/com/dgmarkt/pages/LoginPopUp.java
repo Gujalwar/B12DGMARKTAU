@@ -18,9 +18,13 @@ public class LoginPopUp extends BasePage {
     @FindBy (className = "forgotten")
     public static WebElement forgottenPasswordLink;
 
+
+
     public void login(String username, String password) {
         emailInput.sendKeys(username);
         passwordInput.sendKeys(password);
         loginButton.click();
     }
+
+
 }
