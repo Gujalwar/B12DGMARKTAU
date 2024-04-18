@@ -1,4 +1,4 @@
 package com.dgmarkt.pages;
 
-public class CategoryPage {
+public class CategoryPage extends BasePage {
 }

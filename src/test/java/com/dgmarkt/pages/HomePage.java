@@ -1,4 +1,4 @@
 package com.dgmarkt.pages;
 
-public class HomePage {
+public class HomePage extends BasePage {
 }
