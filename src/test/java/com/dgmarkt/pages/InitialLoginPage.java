@@ -6,14 +6,19 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class InitialLoginPage extends BasePage{
+public class InitialLoginPage extends BasePage {
 
-    @FindBy (xpath = "//input[@name='email']")
+    @FindBy(xpath = "//input[@name='email']")
     public static WebElement emailInput;
-    @FindBy (xpath = "//input[@name='password']")
+    @FindBy(xpath = "//input[@name='password']")
     public static WebElement passwordInput;
-    @FindBy (xpath = "//input[@type='submit']")
+    @FindBy(xpath = "//input[@type='submit']")
     public static WebElement loginButton;
 
-
+    public static void initialLogin(){
+        emailInput.sendKeys(ConfigurationReader.get("initialUsername"));
+        passwordInput.sendKeys(ConfigurationReader.get("initialPassword"));
+        loginButton.click();
+        newsLetterPopupExit.click();
+    }
 }
