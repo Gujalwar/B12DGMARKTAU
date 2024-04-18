@@ -12,8 +12,8 @@ import org.junit.runner.RunWith;
         },
         features = "src/test/resources/features",
         glue = "com/dgmarkt/stepDef",
-        dryRun = false,
-        tags = "@USE_YOUR_TICKET_ID"
+        dryRun = true,
+        tags = "@B12DGMAU-7"
 )
 
 public class CukesRunner {
