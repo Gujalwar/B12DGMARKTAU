@@ -1,4 +1,4 @@
-package com.dgmarkt.utilities.utilities;
+package com.dgmarkt.utilities;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriverException;

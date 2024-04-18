@@ -1,4 +1,4 @@
-package com.dgmarkt.utilities.utilities;
+package com.dgmarkt.utilities;
 
 
 

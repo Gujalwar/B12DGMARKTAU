@@ -1,4 +1,4 @@
-package com.dgmarkt.utilities.utilities;
+package com.dgmarkt.utilities;
 
 import org.junit.Assert;
 import org.openqa.selenium.*;
