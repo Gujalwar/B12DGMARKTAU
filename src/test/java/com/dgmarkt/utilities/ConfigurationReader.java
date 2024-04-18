@@ -1,4 +1,4 @@
-package com.dgmarkt.utilities.utilities;
+package com.dgmarkt.utilities;
 
 import java.io.FileInputStream;
 import java.util.Properties;
