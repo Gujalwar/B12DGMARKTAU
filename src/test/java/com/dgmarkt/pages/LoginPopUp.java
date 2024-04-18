@@ -13,6 +13,10 @@ public class LoginPopUp extends BasePage {
     public static WebElement loginButton;
     @FindBy(xpath = "(//button[@class='button btn'])[2]")
     public static WebElement createAccountButton;
+    @FindBy(xpath = "//div[contains(text(),'Warning: No match for E-Mail Address and/or Password.')]")
+    public static WebElement wrongEmailOrPasswordWarningMessage;
+    @FindBy (className = "forgotten")
+    public static WebElement forgottenPasswordLink;
 
     public void login(String username, String password) {
         emailInput.sendKeys(username);
