@@ -1,3 +1,4 @@
+@smoke
 Feature: Initial Login
 
   @B12DGMAU-24
