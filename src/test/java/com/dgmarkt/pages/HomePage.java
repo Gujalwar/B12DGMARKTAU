@@ -31,8 +31,9 @@ public class HomePage extends BasePage {
     public WebElement continueButton;
 
     @FindBy(css = ".text-danger")
-    //@FindBy(xpath = "//div[@class = 'text-danger']")
     public WebElement userInfoEmptyErrorMessage;
+
+
 
 
 }
