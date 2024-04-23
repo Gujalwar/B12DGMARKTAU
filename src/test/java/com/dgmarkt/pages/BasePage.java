@@ -20,6 +20,16 @@ public abstract class BasePage {
     public static WebElement loginButton;
     @FindBy(xpath = "//div[contains(text(),'Congratulation! Login Successfully')]")
     public static WebElement loginSuccessfulMessage;
+    @FindBy(xpath = "//a[contains(text(),'My Account')]")
+    public WebElement myAccountButton;
+    @FindBy(xpath = "//a[@class='dropdown-toggle']")
+    public WebElement mAMenu;
+    @FindBy(id = "pt-logout-link")
+    public WebElement logOutButton;
+    @FindBy(xpath = "//a[contains(text(),'Continue')]")
+    public WebElement conButton;
+    @FindBy(xpath = "//div//p[contains(text(),'You have been logged off your account.')]")
+    public WebElement logOutMessage;
 }
 
 
